@@ -5,11 +5,13 @@ import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
 import Container from "../components/Container";
+import Meta from "../components/Meta";
 // import { services } from "../utils/Data";
 
 const Home = () => {
   return (
     <>
+      <Meta title={"Home"} />
       <Container class1="home-wrapper-1 py-5">
         <div className="row">
           <div className="col-6">
